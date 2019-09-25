@@ -24,6 +24,6 @@ METHOD:
 
 3) Pull mean and standard deviation measurements.  This is done by with the grepl function.  A subset of the data is taken of only the necessary columns.
 
-4) Assign activity names.  This is done by merging the data from activity_labels and then cleaning out unnecessary information.  The gsup function is used for pattern replacement to clean up data labels.
+4) Assign activity names.  This is done by merging the data from activity_labels and then cleaning out unnecessary information.  The gsub function is used for pattern replacement to clean up data labels.
 
 5) Consolidate relevent data into a new, readable dataset.  This data is output in a new file.
